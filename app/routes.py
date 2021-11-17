@@ -2,7 +2,6 @@ from json.decoder import JSONDecodeError
 from flask import flash, render_template, request, redirect
 from app import app
 from app.forms import SearchForm
-from app.table import Results
 import requests
 import json
 
