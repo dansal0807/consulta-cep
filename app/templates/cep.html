@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+  {% from "_formhelpers.html" import render_field %}
+  <form action="" method="post" novalidate>
+    <p> Busca CEP
+      {{ render_field(form.search) }}
+    </p>
+    <p>   <input type="submit" value="busca">      
+  </p></form>
+</html>
