@@ -1,3 +1,3 @@
-Esse projeto é uma API RESTFul que visa receber e entregar o endereço de acordo com o site dos correios.
+This project aims to simply return the CEP's (the brazilian resident adress code) User of the application.
+The project uses a request and passes on to flask. It's just an example of a microservice provided by the Correios'(Brazilian mail service) API.
 
-Para utilizá-la é preciso do pacote requests.
